@@ -1,0 +1,64 @@
+config:
+  credentials: []
+  project_repos:
+    github.com/EOSC-synergy/sqaaas-tooling:
+      branch: feature/Ophidia
+      repo: https://github.com/EOSC-synergy/sqaaas-tooling
+    github.com/OphidiaBigData/ophidia-workflow-catalogue:
+      branch: master
+      repo: https://github.com/OphidiaBigData/ophidia-workflow-catalogue
+environment:
+  JPL_DOCKERFORCEBUILD: enabled
+  JPL_KEEPGOING: enabled
+sqa_criteria:
+  QC.Acc:
+    repos:
+      github.com/OphidiaBigData/ophidia-workflow-catalogue git:
+        commands:
+        - /usr/bin/env sh .sqa/script.snippy-periwinkle-mastiff.sh
+        container: qc.acc_queasy-periwinkle-mule
+  QC.Doc:
+    repos:
+      github.com/OphidiaBigData/ophidia-workflow-catalogue find_doc_files.py:
+        commands:
+        - /usr/bin/env sh .sqa/script.bluesy-celadon-squirt.sh
+        container: qc.doc_skinny-xanthic-terrier
+      github.com/OphidiaBigData/ophidia-workflow-catalogue git:
+        commands:
+        - /usr/bin/env sh .sqa/script.freaky-gold-seahorse.sh
+        container: qc.doc_cozy-myrtle-ladybird
+      github.com/OphidiaBigData/ophidia-workflow-catalogue markdownlint:
+        commands:
+        - /usr/bin/env sh .sqa/script.snazzy-buff-mastiff.sh
+        container: qc.doc_snoopy-chartreuse-goat
+  QC.Lic:
+    repos:
+      github.com/OphidiaBigData/ophidia-workflow-catalogue licensee:
+        commands:
+        - /usr/bin/env sh .sqa/script.sickly-cinnabar-mongrel.sh
+        container: qc.lic_queasy-cardinal-greyhound
+  QC.Sec:
+    repos:
+      github.com/OphidiaBigData/ophidia-workflow-catalogue bandit:
+        commands:
+        - /usr/bin/env sh .sqa/script.hasty-green-ragdoll.sh
+        container: qc.sec_gloppy-copper-chipmunk
+  QC.Sty:
+    repos:
+      github.com/OphidiaBigData/ophidia-workflow-catalogue find_oph_workflows.py:
+        commands:
+        - /usr/bin/env sh .sqa/script.scanty-olivine-loon.sh
+        container: qc.sty_stuffy-chocolate-akita
+  QC.Uni:
+    repos:
+      github.com/OphidiaBigData/ophidia-workflow-catalogue pytest:
+        commands:
+        - /usr/bin/env sh .sqa/script.sickly-flax-dormouse.sh
+        container: qc.uni_seedy-firebrick-bandicoot
+  QC.Ver:
+    repos:
+      github.com/OphidiaBigData/ophidia-workflow-catalogue get_git_tags.py:
+        commands:
+        - /usr/bin/env sh .sqa/script.homely-aqua-affenpinscher.sh
+        container: qc.ver_dorky-cinnabar-ostrich
+timeout: 5400
