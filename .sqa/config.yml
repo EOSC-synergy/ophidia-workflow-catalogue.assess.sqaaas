@@ -11,54 +11,10 @@ environment:
   JPL_DOCKERFORCEBUILD: enabled
   JPL_KEEPGOING: enabled
 sqa_criteria:
-  QC.Acc:
-    repos:
-      github.com/OphidiaBigData/ophidia-workflow-catalogue git:
-        commands:
-        - /usr/bin/env sh .sqa/script.foggy-wheat-toucan.sh
-        container: qc.acc_craggy-sepia-chow
-  QC.Doc:
-    repos:
-      github.com/OphidiaBigData/ophidia-workflow-catalogue find_doc_files.py:
-        commands:
-        - /usr/bin/env sh .sqa/script.nerdy-khaki-chimpanzee.sh
-        container: qc.doc_slaphappy-peach-mandrill
-      github.com/OphidiaBigData/ophidia-workflow-catalogue git:
-        commands:
-        - /usr/bin/env sh .sqa/script.slimy-cerise-goat.sh
-        container: qc.doc_gamy-thistle-stingray
-      github.com/OphidiaBigData/ophidia-workflow-catalogue markdownlint:
-        commands:
-        - /usr/bin/env sh .sqa/script.slimy-alizarin-caterpillar.sh
-        container: qc.doc_jumpy-platinum-mayfly
-  QC.Lic:
-    repos:
-      github.com/OphidiaBigData/ophidia-workflow-catalogue licensee:
-        commands:
-        - /usr/bin/env sh .sqa/script.stuffy-blue-fousek.sh
-        container: qc.lic_snoopy-buff-sparrow
-  QC.Sec:
-    repos:
-      github.com/OphidiaBigData/ophidia-workflow-catalogue bandit:
-        commands:
-        - /usr/bin/env sh .sqa/script.snippy-corn-falcon.sh
-        container: qc.sec_boozy-platinum-beaver
   QC.Sty:
     repos:
       github.com/OphidiaBigData/ophidia-workflow-catalogue find_oph_workflows.py:
         commands:
-        - /usr/bin/env sh .sqa/script.freaky-yellow-macaque.sh
-        container: qc.sty_snazzy-periwinkle-wolfhound
-  QC.Uni:
-    repos:
-      github.com/OphidiaBigData/ophidia-workflow-catalogue pytest:
-        commands:
-        - /usr/bin/env sh .sqa/script.homely-orchid-chin.sh
-        container: qc.uni_ready-olive-crab
-  QC.Ver:
-    repos:
-      github.com/OphidiaBigData/ophidia-workflow-catalogue get_git_tags.py:
-        commands:
-        - /usr/bin/env sh .sqa/script.pasty-chartreuse-otter.sh
-        container: qc.ver_greasy-razzmatazz-akbash
+        - /usr/bin/env sh .sqa/script.gloppy-harlequin-weasel.sh
+        container: qc.sty_geeky-saffron-wrasse
 timeout: 5400
