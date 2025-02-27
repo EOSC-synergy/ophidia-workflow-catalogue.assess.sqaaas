@@ -11,10 +11,54 @@ environment:
   JPL_DOCKERFORCEBUILD: enabled
   JPL_KEEPGOING: enabled
 sqa_criteria:
+  QC.Acc:
+    repos:
+      github.com/OphidiaBigData/ophidia-workflow-catalogue git:
+        commands:
+        - /usr/bin/env sh .sqa/script.seedy-flax-hound.sh
+        container: qc.acc_slaphappy-taupe-audemer
+  QC.Doc:
+    repos:
+      github.com/OphidiaBigData/ophidia-workflow-catalogue find_doc_files.py:
+        commands:
+        - /usr/bin/env sh .sqa/script.slimy-ruby-whale.sh
+        container: qc.doc_wheezy-lavender-neanderthal
+      github.com/OphidiaBigData/ophidia-workflow-catalogue git:
+        commands:
+        - /usr/bin/env sh .sqa/script.lousy-buff-sloth.sh
+        container: qc.doc_cranky-firebrick-coati
+      github.com/OphidiaBigData/ophidia-workflow-catalogue markdownlint:
+        commands:
+        - /usr/bin/env sh .sqa/script.clammy-cornflower-wombat.sh
+        container: qc.doc_dorky-cerise-tuatara
+  QC.Lic:
+    repos:
+      github.com/OphidiaBigData/ophidia-workflow-catalogue licensee:
+        commands:
+        - /usr/bin/env sh .sqa/script.silly-brown-jackal.sh
+        container: qc.lic_silly-tan-molly
+  QC.Sec:
+    repos:
+      github.com/OphidiaBigData/ophidia-workflow-catalogue bandit:
+        commands:
+        - /usr/bin/env sh .sqa/script.lovely-linen-goat.sh
+        container: qc.sec_sleepy-lavender-capybara
   QC.Sty:
     repos:
       github.com/OphidiaBigData/ophidia-workflow-catalogue find_oph_workflows.py:
         commands:
-        - /usr/bin/env sh .sqa/script.gloppy-harlequin-weasel.sh
-        container: qc.sty_geeky-saffron-wrasse
+        - /usr/bin/env sh .sqa/script.baggy-smalt-squirt.sh
+        container: qc.sty_squirrely-champagne-oriole
+  QC.Uni:
+    repos:
+      github.com/OphidiaBigData/ophidia-workflow-catalogue pytest:
+        commands:
+        - /usr/bin/env sh .sqa/script.pretty-tomato-worm.sh
+        container: qc.uni_ugly-silver-anteater
+  QC.Ver:
+    repos:
+      github.com/OphidiaBigData/ophidia-workflow-catalogue get_git_tags.py:
+        commands:
+        - /usr/bin/env sh .sqa/script.breezy-violet-skunk.sh
+        container: qc.ver_paltry-ivory-chinchilla
 timeout: 5400
