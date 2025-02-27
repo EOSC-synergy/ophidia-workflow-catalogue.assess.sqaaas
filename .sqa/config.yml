@@ -11,54 +11,10 @@ environment:
   JPL_DOCKERFORCEBUILD: enabled
   JPL_KEEPGOING: enabled
 sqa_criteria:
-  QC.Acc:
-    repos:
-      github.com/OphidiaBigData/ophidia-workflow-catalogue git:
-        commands:
-        - /usr/bin/env sh .sqa/script.boozy-silver-mongrel.sh
-        container: qc.acc_snippy-ruby-chicken
-  QC.Doc:
-    repos:
-      github.com/OphidiaBigData/ophidia-workflow-catalogue find_doc_files.py:
-        commands:
-        - /usr/bin/env sh .sqa/script.flaky-harlequin-ragdoll.sh
-        container: qc.doc_freaky-emerald-dingo
-      github.com/OphidiaBigData/ophidia-workflow-catalogue git:
-        commands:
-        - /usr/bin/env sh .sqa/script.shaggy-olivine-millipede.sh
-        container: qc.doc_chummy-gamboge-tapir
-      github.com/OphidiaBigData/ophidia-workflow-catalogue markdownlint:
-        commands:
-        - /usr/bin/env sh .sqa/script.slaphappy-white-insect.sh
-        container: qc.doc_scummy-smalt-bullfrog
-  QC.Lic:
-    repos:
-      github.com/OphidiaBigData/ophidia-workflow-catalogue licensee:
-        commands:
-        - /usr/bin/env sh .sqa/script.queasy-ultramarine-jellyfish.sh
-        container: qc.lic_nerdy-ultramarine-impala
-  QC.Sec:
-    repos:
-      github.com/OphidiaBigData/ophidia-workflow-catalogue bandit:
-        commands:
-        - /usr/bin/env sh .sqa/script.foggy-gamboge-hippopotamus.sh
-        container: qc.sec_leaky-green-crab
   QC.Sty:
     repos:
       github.com/OphidiaBigData/ophidia-workflow-catalogue find_oph_workflows.py:
         commands:
-        - /usr/bin/env sh .sqa/script.lumpy-lilac-squirt.sh
-        container: qc.sty_snappy-taupe-centipede
-  QC.Uni:
-    repos:
-      github.com/OphidiaBigData/ophidia-workflow-catalogue pytest:
-        commands:
-        - /usr/bin/env sh .sqa/script.slimy-corn-bloodhound.sh
-        container: qc.uni_snappy-salmon-zorse
-  QC.Ver:
-    repos:
-      github.com/OphidiaBigData/ophidia-workflow-catalogue get_git_tags.py:
-        commands:
-        - /usr/bin/env sh .sqa/script.shaky-malachite-coati.sh
-        container: qc.ver_hazy-periwinkle-zorse
+        - /usr/bin/env sh .sqa/script.chummy-linen-husky.sh
+        container: qc.sty_zippy-maroon-civet
 timeout: 5400
