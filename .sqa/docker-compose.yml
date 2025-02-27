@@ -1,5 +1,5 @@
 services:
-  qc.sty_wiggy-emerald-gecko:
+  qc.sty_lumpy-yellow-giraffe:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pyophidia
       dockerfile: Dockerfile
