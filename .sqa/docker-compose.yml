@@ -1,5 +1,5 @@
 services:
-  qc.sty_zippy-maroon-civet:
+  qc.sty_blurry-denim-chipmunk:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pyophidia
       dockerfile: Dockerfile
