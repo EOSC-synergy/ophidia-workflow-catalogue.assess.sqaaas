@@ -5,7 +5,7 @@ config:
       branch: feature/Ophidia
       repo: https://github.com/EOSC-synergy/sqaaas-tooling
     github.com/OphidiaBigData/ophidia-workflow-catalogue:
-      branch: master
+      branch: devel
       repo: https://github.com/OphidiaBigData/ophidia-workflow-catalogue
 environment:
   JPL_DOCKERFORCEBUILD: enabled
@@ -15,6 +15,6 @@ sqa_criteria:
     repos:
       github.com/OphidiaBigData/ophidia-workflow-catalogue find_oph_workflows.py:
         commands:
-        - /usr/bin/env sh .sqa/script.crabby-thistle-chamois.sh
-        container: qc.sty_crabby-denim-tarsier
+        - /usr/bin/env sh .sqa/script.lousy-denim-gharial.sh
+        container: qc.sty_crappy-silver-mammoth
 timeout: 5400
