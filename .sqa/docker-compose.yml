@@ -1,5 +1,5 @@
 services:
-  qc.sty_baggy-peach-duck:
+  qc.sty_tasty-eggplant-dog:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pyophidia
       dockerfile: Dockerfile
