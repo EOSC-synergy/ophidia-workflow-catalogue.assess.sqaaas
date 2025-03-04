@@ -1,5 +1,5 @@
 services:
-  qc.sty_cheeky-chocolate-eleuth:
+  qc.sty_randy-lavender-turtle:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pyophidia
       dockerfile: Dockerfile
