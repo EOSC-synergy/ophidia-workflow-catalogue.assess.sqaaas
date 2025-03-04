@@ -15,6 +15,6 @@ sqa_criteria:
     repos:
       github.com/OphidiaBigData/ophidia-workflow-catalogue find_oph_workflows.py:
         commands:
-        - /usr/bin/env sh .sqa/script.chewy-chestnut-earwig.sh
-        container: qc.sty_pasty-beige-dachshund
+        - /usr/bin/env sh .sqa/script.flabby-goldenrod-yak.sh
+        container: qc.sty_skinny-lilac-mau
 timeout: 5400

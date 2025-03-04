@@ -1,5 +1,5 @@
 services:
-  qc.sty_pasty-beige-dachshund:
+  qc.sty_skinny-lilac-mau:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pyophidia
       dockerfile: Dockerfile
