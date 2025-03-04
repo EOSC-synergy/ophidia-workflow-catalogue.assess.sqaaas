@@ -1,5 +1,5 @@
 services:
-  qc.sty_crappy-silver-mammoth:
+  qc.sty_wiggy-cyan-olm:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pyophidia
       dockerfile: Dockerfile
