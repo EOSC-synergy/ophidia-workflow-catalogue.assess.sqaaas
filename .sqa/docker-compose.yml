@@ -1,5 +1,5 @@
 services:
-  qc.sty_scaly-cyan-penguin:
+  qc.sty_queasy-purple-zebra:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pyophidia
       dockerfile: Dockerfile
