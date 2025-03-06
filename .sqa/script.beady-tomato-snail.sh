@@ -5,5 +5,5 @@
 
 (
 cd github.com/OphidiaBigData/ophidia-workflow-catalogue &&
-    find_oph_workflows.py --path .
+    find_oph_workflows.py --path . --paath [pata]
 )
