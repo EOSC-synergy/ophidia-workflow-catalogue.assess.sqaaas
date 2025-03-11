@@ -1,5 +1,5 @@
 services:
-  qc.sty_sloppy-heliotrope-greyhound:
+  qc.sty_pretty-cream-alligator:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pyophidia
       dockerfile: Dockerfile
