@@ -1,5 +1,5 @@
 services:
-  qc.sty_crabby-denim-tarsier:
+  qc.sty_lumpy-wheat-tang:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pyophidia
       dockerfile: Dockerfile
