@@ -1,5 +1,5 @@
 services:
-  qc.sty_lousy-grey-chow:
+  qc.sty_gamy-eggplant-mastiff:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pyophidia
       dockerfile: Dockerfile
