@@ -1,5 +1,5 @@
 services:
-  qc.sty_gamy-eggplant-mastiff:
+  qc.sty_thirsty-tangerine-elephant:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pyophidia
       dockerfile: Dockerfile
