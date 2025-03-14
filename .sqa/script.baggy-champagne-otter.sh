@@ -5,5 +5,5 @@
 
 (
 cd github.com/OphidiaBigData/ophidia-workflow-catalogue &&
-    find_oph_workflows.py --path . --args {"lss.json":["1" "historic"]}
+    find_oph_workflows.py --path . --args {"lss.json":'["1" "historic"]'}
 )
