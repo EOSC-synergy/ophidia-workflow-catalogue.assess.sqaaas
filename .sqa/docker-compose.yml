@@ -1,5 +1,5 @@
 services:
-  qc.sty_cheeky-corn-gibbon:
+  qc.sty_wiggy-fuchsia-fowl:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pyophidia
       dockerfile: Dockerfile
