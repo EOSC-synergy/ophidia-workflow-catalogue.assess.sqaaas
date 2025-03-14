@@ -1,5 +1,5 @@
 services:
-  qc.sty_bumpy-alizarin-peccary:
+  qc.sty_scummy-orchid-baboon:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pyophidia
       dockerfile: Dockerfile
