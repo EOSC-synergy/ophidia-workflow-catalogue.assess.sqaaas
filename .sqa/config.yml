@@ -15,6 +15,6 @@ sqa_criteria:
     repos:
       github.com/OphidiaBigData/ophidia-workflow-catalogue find_oph_workflows.py:
         commands:
-        - /usr/bin/env sh .sqa/script.paltry-dandelion-gopher.sh
-        container: qc.sty_scummy-orchid-baboon
+        - /usr/bin/env sh .sqa/script.pokey-peach-monkey.sh
+        container: qc.sty_gummy-smalt-shrew
 timeout: 5400

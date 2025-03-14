@@ -1,5 +1,5 @@
 services:
-  qc.sty_scummy-orchid-baboon:
+  qc.sty_gummy-smalt-shrew:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pyophidia
       dockerfile: Dockerfile
