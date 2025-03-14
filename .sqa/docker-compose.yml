@@ -1,5 +1,5 @@
 services:
-  qc.sty_zippy-periwinkle-seal:
+  qc.sty_baggy-sangria-caracal:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pyophidia
       dockerfile: Dockerfile
