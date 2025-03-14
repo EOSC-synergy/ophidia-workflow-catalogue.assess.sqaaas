@@ -1,5 +1,5 @@
 services:
-  qc.sty_baggy-burgundy-chihuahua:
+  qc.sty_seedy-smalt-saola:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pyophidia
       dockerfile: Dockerfile
