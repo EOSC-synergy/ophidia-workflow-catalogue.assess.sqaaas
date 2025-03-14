@@ -15,6 +15,6 @@ sqa_criteria:
     repos:
       github.com/OphidiaBigData/ophidia-workflow-catalogue find_oph_workflows.py:
         commands:
-        - /usr/bin/env sh .sqa/script.bumpy-seashell-ragdoll.sh
-        container: qc.sty_ready-celadon-zorse
+        - /usr/bin/env sh .sqa/script.homey-vermilion-mayfly.sh
+        container: qc.sty_bumpy-aqua-moth
 timeout: 5400
