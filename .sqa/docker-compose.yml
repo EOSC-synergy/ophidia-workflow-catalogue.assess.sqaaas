@@ -1,5 +1,5 @@
 services:
-  qc.sty_scaly-cerise-clam:
+  qc.sty_breezy-zucchini-whippet:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pyophidia
       dockerfile: Dockerfile
