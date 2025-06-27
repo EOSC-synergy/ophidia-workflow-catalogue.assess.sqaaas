@@ -1,5 +1,5 @@
 services:
-  qc.sty_flimsy-sapphire-magpie:
+  qc.sty_scaly-cerise-clam:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pyophidia
       dockerfile: Dockerfile

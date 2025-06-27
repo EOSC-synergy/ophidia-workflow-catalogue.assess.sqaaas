@@ -2,7 +2,7 @@ config:
   credentials: []
   project_repos:
     github.com/EOSC-synergy/sqaaas-tooling:
-      branch: release/2.2.1
+      branch: feature/Ophidia
       repo: https://github.com/EOSC-synergy/sqaaas-tooling
     github.com/OphidiaBigData/ophidia-workflow-catalogue:
       branch: master
@@ -15,6 +15,6 @@ sqa_criteria:
     repos:
       github.com/OphidiaBigData/ophidia-workflow-catalogue find_oph_workflows.py:
         commands:
-        - /usr/bin/env sh .sqa/script.cranky-amber-magpie.sh
-        container: qc.sty_flimsy-sapphire-magpie
+        - /usr/bin/env sh .sqa/script.wiggy-rust-maltese.sh
+        container: qc.sty_scaly-cerise-clam
 timeout: 5400
