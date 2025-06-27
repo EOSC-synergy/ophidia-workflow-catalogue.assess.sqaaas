@@ -1,5 +1,5 @@
 services:
-  qc.sty_woozy-copper-wolverine:
+  qc.sty_dorky-lemon-havanese:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pyophidia
       dockerfile: Dockerfile
