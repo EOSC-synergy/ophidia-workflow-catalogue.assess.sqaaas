@@ -1,5 +1,5 @@
 services:
-  qc.sty_hazy-cinnamon-foxhound:
+  qc.sty_clammy-sapphire-kakapo:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pyophidia
       dockerfile: Dockerfile
