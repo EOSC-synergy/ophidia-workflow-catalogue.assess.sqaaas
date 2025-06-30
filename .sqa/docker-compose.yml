@@ -1,5 +1,5 @@
 services:
-  qc.sty_skimpy-vermilion-hamster:
+  qc.sty_snappy-chartreuse-newfoundland:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pyophidia
       dockerfile: Dockerfile
