@@ -1,5 +1,5 @@
 services:
-  qc.sty_snappy-xanthic-booby:
+  qc.sty_chummy-tangerine-hare:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pyophidia
       dockerfile: Dockerfile
