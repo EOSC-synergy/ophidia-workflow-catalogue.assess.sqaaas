@@ -1,5 +1,5 @@
 services:
-  qc.sty_stealthy-salmon-quetzal:
+  qc.sty_stealthy-cobalt-civet:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pyophidia
       dockerfile: Dockerfile
