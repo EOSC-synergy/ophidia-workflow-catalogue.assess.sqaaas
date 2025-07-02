@@ -1,5 +1,5 @@
 services:
-  qc.sty_scaly-magenta-booby:
+  qc.sty_boozy-burgundy-hamster:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pyophidia
       dockerfile: Dockerfile
