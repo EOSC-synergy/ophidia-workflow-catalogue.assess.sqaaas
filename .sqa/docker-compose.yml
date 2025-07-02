@@ -1,5 +1,5 @@
 services:
-  qc.sty_sleazy-lavender-lizard:
+  qc.sty_slaphappy-burgundy-lionfish:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pyophidia
       dockerfile: Dockerfile
