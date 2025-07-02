@@ -1,5 +1,5 @@
 services:
-  qc.sty_boozy-burgundy-hamster:
+  qc.sty_hilly-wheat-rhinoceros:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pyophidia
       dockerfile: Dockerfile
