@@ -15,6 +15,6 @@ sqa_criteria:
     repos:
       github.com/OphidiaBigData/ophidia-workflow-catalogue find_oph_workflows.py:
         commands:
-        - /usr/bin/env sh .sqa/script.wiggy-carmine-kiwi.sh
-        container: qc.sty_stealthy-cobalt-civet
+        - /usr/bin/env sh .sqa/script.hazy-blue-uguisu.sh
+        container: qc.sty_squeaky-eggplant-dane
 timeout: 5400
