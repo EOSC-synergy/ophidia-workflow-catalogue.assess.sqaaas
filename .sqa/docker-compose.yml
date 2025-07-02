@@ -1,5 +1,5 @@
 services:
-  qc.sty_geeky-denim-lizard:
+  qc.sty_pretty-lilac-quoll:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pyophidia
       dockerfile: Dockerfile
