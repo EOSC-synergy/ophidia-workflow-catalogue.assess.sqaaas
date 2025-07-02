@@ -15,6 +15,6 @@ sqa_criteria:
     repos:
       github.com/OphidiaBigData/ophidia-workflow-catalogue find_oph_workflows.py:
         commands:
-        - /usr/bin/env sh .sqa/script.dorky-zucchini-chicken.sh
-        container: qc.sty_lovely-ochre-earwig
+        - /usr/bin/env sh .sqa/script.seedy-cornflower-panda.sh
+        container: qc.sty_skinny-buff-opossum
 timeout: 5400
