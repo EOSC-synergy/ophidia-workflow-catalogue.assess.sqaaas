@@ -1,5 +1,5 @@
 services:
-  qc.sty_tacky-maroon-llama:
+  qc.sty_greasy-eggplant-grasshopper:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pyophidia
       dockerfile: Dockerfile
