@@ -1,5 +1,5 @@
 services:
-  qc.sty_snazzy-buff-audemer:
+  qc.sty_tacky-maroon-llama:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pyophidia
       dockerfile: Dockerfile

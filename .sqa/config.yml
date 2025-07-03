@@ -15,6 +15,6 @@ sqa_criteria:
     repos:
       github.com/OphidiaBigData/ophidia-workflow-catalogue find_oph_workflows.py:
         commands:
-        - /usr/bin/env sh .sqa/script.clammy-white-beaver.sh
-        container: qc.sty_snazzy-buff-audemer
+        - /usr/bin/env sh .sqa/script.stealthy-gold-cougar.sh
+        container: qc.sty_tacky-maroon-llama
 timeout: 5400
