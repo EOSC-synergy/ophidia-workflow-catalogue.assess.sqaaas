@@ -1,5 +1,5 @@
 services:
-  qc.sty_queasy-jade-bonobo:
+  qc.sty_boozy-burgundy-terrier:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pyophidia
       dockerfile: Dockerfile
