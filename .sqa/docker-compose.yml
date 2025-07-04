@@ -1,5 +1,5 @@
 services:
-  qc.sty_snoopy-asparagus-hippopotamus:
+  qc.sty_sloppy-green-chin:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pyophidia
       dockerfile: Dockerfile
