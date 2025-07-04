@@ -1,5 +1,5 @@
 services:
-  qc.sty_jumpy-amber-monkey:
+  qc.sty_skanky-brown-falcon:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pyophidia
       dockerfile: Dockerfile
