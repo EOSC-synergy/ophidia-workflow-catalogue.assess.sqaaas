@@ -1,5 +1,5 @@
 services:
-  qc.sty_boozy-burgundy-terrier:
+  qc.sty_blurry-olivine-ocelot:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pyophidia
       dockerfile: Dockerfile
