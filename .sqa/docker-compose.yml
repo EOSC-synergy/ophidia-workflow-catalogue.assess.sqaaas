@@ -1,5 +1,5 @@
 services:
-  qc.sty_hazy-yellow-tetra:
+  qc.sty_lanky-taupe-walrus:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pyophidia
       dockerfile: Dockerfile
