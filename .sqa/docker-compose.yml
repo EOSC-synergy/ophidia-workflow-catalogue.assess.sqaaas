@@ -1,5 +1,5 @@
 services:
-  qc.sty_skanky-brown-falcon:
+  qc.sty_greasy-olivine-avocet:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pyophidia
       dockerfile: Dockerfile
