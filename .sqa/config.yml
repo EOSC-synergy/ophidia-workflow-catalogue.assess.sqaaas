@@ -15,6 +15,6 @@ sqa_criteria:
     repos:
       github.com/OphidiaBigData/ophidia-workflow-catalogue find_oph_workflows.py:
         commands:
-        - /usr/bin/env sh .sqa/script.hasty-khaki-cassowary.sh
-        container: qc.sty_lovely-celadon-serval
+        - /usr/bin/env sh .sqa/script.skimpy-magenta-bonobo.sh
+        container: qc.sty_sickly-eggplant-wolverine
 timeout: 5400
