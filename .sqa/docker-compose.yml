@@ -1,5 +1,5 @@
 services:
-  qc.sty_blurry-olivine-ocelot:
+  qc.sty_smelly-fuchsia-malamute:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pyophidia
       dockerfile: Dockerfile
