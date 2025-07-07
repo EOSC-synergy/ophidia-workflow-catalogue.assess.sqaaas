@@ -1,5 +1,5 @@
 services:
-  qc.sty_skimpy-copper-bat:
+  qc.sty_skinny-sepia-mammoth:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pyophidia
       dockerfile: Dockerfile
