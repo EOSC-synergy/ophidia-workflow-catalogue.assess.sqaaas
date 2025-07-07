@@ -1,5 +1,5 @@
 services:
-  qc.sty_skimpy-viridian-robin:
+  qc.sty_hasty-violet-rat:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pyophidia
       dockerfile: Dockerfile
