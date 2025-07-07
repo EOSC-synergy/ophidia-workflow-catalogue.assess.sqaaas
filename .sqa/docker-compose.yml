@@ -1,5 +1,5 @@
 services:
-  qc.sty_lousy-pumpkin-coral:
+  qc.sty_snazzy-red-bordeaux:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pyophidia
       dockerfile: Dockerfile
