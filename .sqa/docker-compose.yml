@@ -1,5 +1,5 @@
 services:
-  qc.sty_hasty-violet-rat:
+  qc.sty_skimpy-copper-bat:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pyophidia
       dockerfile: Dockerfile
