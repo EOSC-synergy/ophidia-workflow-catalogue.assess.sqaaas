@@ -1,5 +1,5 @@
 services:
-  qc.sty_shaggy-charcoal-horse:
+  qc.sty_gummy-champagne-chamois:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pyophidia
       dockerfile: Dockerfile
