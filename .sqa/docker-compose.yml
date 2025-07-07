@@ -1,5 +1,5 @@
 services:
-  qc.sty_skinny-sepia-mammoth:
+  qc.sty_cozy-asparagus-russel:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pyophidia
       dockerfile: Dockerfile
