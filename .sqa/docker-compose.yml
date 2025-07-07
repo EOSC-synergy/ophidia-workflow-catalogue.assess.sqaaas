@@ -1,5 +1,5 @@
 services:
-  qc.sty_jumpy-cardinal-liger:
+  qc.sty_droopy-buff-turkey:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pyophidia
       dockerfile: Dockerfile
