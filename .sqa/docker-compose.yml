@@ -1,5 +1,5 @@
 services:
-  qc.sty_greasy-thistle-opossum:
+  qc.sty_hazy-denim-angelfish:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pyophidia
       dockerfile: Dockerfile
