@@ -1,5 +1,5 @@
 services:
-  qc.sty_wimpy-fuchsia-dragon:
+  qc.sty_crappy-scarlet-guppy:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pyophidia
       dockerfile: Dockerfile
