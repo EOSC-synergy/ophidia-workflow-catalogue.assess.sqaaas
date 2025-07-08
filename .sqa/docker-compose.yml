@@ -1,5 +1,5 @@
 services:
-  qc.sty_gloppy-amber-sloth:
+  qc.sty_wimpy-fuchsia-dragon:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pyophidia
       dockerfile: Dockerfile
