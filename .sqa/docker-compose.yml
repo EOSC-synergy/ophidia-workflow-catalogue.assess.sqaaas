@@ -1,5 +1,5 @@
 services:
-  qc.sty_scaly-amber-rottweiler:
+  qc.sty_foggy-gamboge-wrasse:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pyophidia
       dockerfile: Dockerfile
