@@ -1,5 +1,5 @@
 services:
-  qc.sty_clammy-tan-javanese:
+  qc.sty_scaly-amber-rottweiler:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pyophidia
       dockerfile: Dockerfile

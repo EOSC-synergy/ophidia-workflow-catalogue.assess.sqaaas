@@ -15,6 +15,6 @@ sqa_criteria:
     repos:
       github.com/OphidiaBigData/ophidia-workflow-catalogue find_oph_workflows.py:
         commands:
-        - /usr/bin/env sh .sqa/script.sickly-pear-hippopotamus.sh
-        container: qc.sty_clammy-tan-javanese
+        - /usr/bin/env sh .sqa/script.randy-corn-butterfly.sh
+        container: qc.sty_scaly-amber-rottweiler
 timeout: 5400
