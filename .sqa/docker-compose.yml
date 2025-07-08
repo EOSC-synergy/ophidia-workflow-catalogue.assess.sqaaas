@@ -1,5 +1,5 @@
 services:
-  qc.sty_sickly-red-collie:
+  qc.sty_gloppy-amber-sloth:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pyophidia
       dockerfile: Dockerfile
