@@ -1,5 +1,5 @@
 services:
-  qc.sty_bumpy-chestnut-fly:
+  qc.sty_greasy-alizarin-flamingo:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pyophidia
       dockerfile: Dockerfile
