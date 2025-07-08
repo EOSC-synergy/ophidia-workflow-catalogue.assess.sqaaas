@@ -1,5 +1,5 @@
 services:
-  qc.sty_droopy-buff-turkey:
+  qc.sty_geeky-charcoal-mau:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pyophidia
       dockerfile: Dockerfile
