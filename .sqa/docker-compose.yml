@@ -1,5 +1,5 @@
 services:
-  qc.sty_geeky-cardinal-macaque:
+  qc.sty_bumpy-chestnut-fly:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pyophidia
       dockerfile: Dockerfile
