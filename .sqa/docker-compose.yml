@@ -1,5 +1,5 @@
 services:
-  qc.sty_slaphappy-yellow-dogfish:
+  qc.sty_lousy-plum-bee:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pyophidia
       dockerfile: Dockerfile
