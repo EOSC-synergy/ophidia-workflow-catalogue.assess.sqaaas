@@ -1,5 +1,5 @@
 services:
-  qc.sty_muzzy-peach-gar:
+  qc.sty_leaky-bronze-cougar:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pyophidia
       dockerfile: Dockerfile
