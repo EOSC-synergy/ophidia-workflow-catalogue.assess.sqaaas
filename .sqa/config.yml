@@ -5,7 +5,7 @@ config:
       branch: feature/Ophidia
       repo: https://github.com/EOSC-synergy/sqaaas-tooling
     github.com/OphidiaBigData/ophidia-workflow-catalogue:
-      branch: master
+      branch: intertwin
       repo: https://github.com/OphidiaBigData/ophidia-workflow-catalogue
 environment:
   JPL_DOCKERFORCEBUILD: enabled
@@ -15,6 +15,6 @@ sqa_criteria:
     repos:
       github.com/OphidiaBigData/ophidia-workflow-catalogue find_oph_workflows.py:
         commands:
-        - /usr/bin/env sh .sqa/script.gamy-pear-barnacle.sh
-        container: qc.sty_stuffy-taupe-zebu
+        - /usr/bin/env sh .sqa/script.tasty-pear-angelfish.sh
+        container: qc.sty_squeaky-goldenrod-chimpanzee
 timeout: 5400
