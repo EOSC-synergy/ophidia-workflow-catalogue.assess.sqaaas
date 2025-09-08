@@ -1,5 +1,5 @@
 services:
-  qc.sty_wiggy-aquamarine-mandrill:
+  qc.sty_tacky-cinnabar-angora:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pyophidia
       dockerfile: Dockerfile
