@@ -1,5 +1,5 @@
 services:
-  qc.sty_tacky-cinnabar-angora:
+  qc.sty_chummy-tomato-bordeaux:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pyophidia
       dockerfile: Dockerfile
