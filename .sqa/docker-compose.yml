@@ -1,5 +1,5 @@
 services:
-  qc.sty_randy-celadon-rattlesnake:
+  qc.sty_muzzy-aquamarine-caterpillar:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pyophidia
       dockerfile: Dockerfile
