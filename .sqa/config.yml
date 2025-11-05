@@ -2,7 +2,7 @@ config:
   credentials: []
   project_repos:
     github.com/EOSC-synergy/sqaaas-tooling:
-      branch: feature/Ophidia-theidocker
+      branch: feature/Ophidia
       repo: https://github.com/EOSC-synergy/sqaaas-tooling
     github.com/OphidiaBigData/ophidia-workflow-catalogue:
       branch: devel
@@ -15,6 +15,6 @@ sqa_criteria:
     repos:
       github.com/OphidiaBigData/ophidia-workflow-catalogue find_oph_workflows.py:
         commands:
-        - /usr/bin/env sh .sqa/script.pokey-persimmon-deer.sh
-        container: qc.sty_zippy-cobalt-greyhound
+        - /usr/bin/env sh .sqa/script.shabby-asparagus-goose.sh
+        container: qc.sty_randy-celadon-rattlesnake
 timeout: 5400
