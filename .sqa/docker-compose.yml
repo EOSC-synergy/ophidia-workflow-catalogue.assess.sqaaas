@@ -1,5 +1,5 @@
 services:
-  qc.sty_muzzy-aquamarine-caterpillar:
+  qc.sty_sleazy-plum-loon:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pyophidia
       dockerfile: Dockerfile
