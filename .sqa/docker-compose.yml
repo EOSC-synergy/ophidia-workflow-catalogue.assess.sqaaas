@@ -1,5 +1,5 @@
 services:
-  qc.sty_muzzy-jade-walrus:
+  qc.sty_bumpy-seashell-tapir:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pyophidia
       dockerfile: Dockerfile
