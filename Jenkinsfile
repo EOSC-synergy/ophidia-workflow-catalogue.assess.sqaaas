@@ -11,7 +11,7 @@ pipeline {
     agent any
 
     stages {
-        stage('SQA baseline criterion: QC.Sty') {
+        stage('SQA baseline criterion: QC.Acc & QC.Doc & QC.Lic & QC.Sec & QC.Sty & QC.Uni & QC.Ver') {
             when {
                 anyOf {
                     expression { currentBuild.previousCompletedBuild == null }
@@ -24,8 +24,10 @@ pipeline {
                     projectConfig = pipelineConfig(
                         configFile: '.sqa/config.yml',
                         scmConfigs: [ localBranch: true ],
-                        validatorDockerImage: 'eoscsynergy/jpl-validator:2.4.0'
-                    )
+                        validatorDockerImage: 'eoscsynergy/jpl-validator:2.4.0',
+                        credentialsId: 'None'
+
+                                     )
                     buildStages(projectConfig)
                 }
             }

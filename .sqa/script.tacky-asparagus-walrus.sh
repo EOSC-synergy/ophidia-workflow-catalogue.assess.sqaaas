@@ -5,5 +5,5 @@
 
 (
 cd github.com/OphidiaBigData/ophidia-workflow-catalogue &&
-    find_oph_workflows.py
+    licensee detect . --confidence 60 --json 
 )

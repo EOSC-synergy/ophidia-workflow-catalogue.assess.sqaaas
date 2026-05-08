@@ -2,7 +2,7 @@ config:
   credentials: []
   project_repos:
     github.com/EOSC-synergy/sqaaas-tooling:
-      branch: feature/Ophidia
+      branch: feature/pynblint_fix
       repo: https://github.com/EOSC-synergy/sqaaas-tooling
     github.com/OphidiaBigData/ophidia-workflow-catalogue:
       branch: master
@@ -11,10 +11,62 @@ environment:
   JPL_DOCKERFORCEBUILD: enabled
   JPL_KEEPGOING: enabled
 sqa_criteria:
+  QC.Acc:
+    repos:
+      github.com/OphidiaBigData/ophidia-workflow-catalogue git:
+        commands:
+        - /usr/bin/env sh .sqa/script.pokey-amethyst-axolotl.sh
+        container: qc.acc_crabby-viridian-dolphin
+  QC.Doc:
+    repos:
+      github.com/OphidiaBigData/ophidia-workflow-catalogue find_doc_files.py:
+        commands:
+        - /usr/bin/env sh .sqa/script.goopy-sepia-koala.sh
+        container: qc.doc_nerdy-maroon-moorhen
+      github.com/OphidiaBigData/ophidia-workflow-catalogue git:
+        commands:
+        - /usr/bin/env sh .sqa/script.stealthy-harlequin-tapir.sh
+        container: qc.doc_cloudy-cinnabar-bison
+      github.com/OphidiaBigData/ophidia-workflow-catalogue markdownlint:
+        commands:
+        - /usr/bin/env sh .sqa/script.clammy-peach-blue.sh
+        container: qc.doc_lousy-razzmatazz-gar
+  QC.Lic:
+    repos:
+      github.com/OphidiaBigData/ophidia-workflow-catalogue licensee:
+        commands:
+        - /usr/bin/env sh .sqa/script.tacky-asparagus-walrus.sh
+        container: qc.lic_ready-thistle-hippopotamus
+  QC.Sec:
+    repos:
+      github.com/OphidiaBigData/ophidia-workflow-catalogue bandit:
+        commands:
+        - /usr/bin/env sh .sqa/script.messy-auburn-hyrax.sh
+        container: qc.sec_squirrely-russet-dodo
   QC.Sty:
     repos:
-      github.com/OphidiaBigData/ophidia-workflow-catalogue find_oph_workflows.py:
+      github.com/OphidiaBigData/ophidia-workflow-catalogue flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.gamy-pear-barnacle.sh
-        container: qc.sty_stuffy-taupe-zebu
+        - /usr/bin/env sh .sqa/script.gimpy-cobalt-gerbil.sh
+        container: qc.sty_wheezy-cinnamon-hippopotamus
+      github.com/OphidiaBigData/ophidia-workflow-catalogue jsonlint:
+        commands:
+        - /usr/bin/env sh .sqa/script.gloppy-rust-dalmatian.sh
+        container: qc.sty_gimpy-alizarin-octopus
+      github.com/OphidiaBigData/ophidia-workflow-catalogue pynblint.py:
+        commands:
+        - /usr/bin/env sh .sqa/script.surly-amethyst-reindeer.sh
+        container: qc.sty_woozy-sangria-fousek
+  QC.Uni:
+    repos:
+      github.com/OphidiaBigData/ophidia-workflow-catalogue pytest:
+        commands:
+        - /usr/bin/env sh .sqa/script.chummy-cerise-wasp.sh
+        container: qc.uni_craggy-periwinkle-antelope
+  QC.Ver:
+    repos:
+      github.com/OphidiaBigData/ophidia-workflow-catalogue get_git_tags.py:
+        commands:
+        - /usr/bin/env sh .sqa/script.droopy-eggplant-armadillo.sh
+        container: qc.ver_randy-copper-grouse
 timeout: 5400
