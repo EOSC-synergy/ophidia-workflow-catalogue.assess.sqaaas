@@ -20,58 +20,58 @@ sqa_criteria:
     repos:
       github.com/OphidiaBigData/ophidia-workflow-catalogue git:
         commands:
-        - /usr/bin/env sh .sqa/script.sapphire_passionate_hornbill.sh
-        container: qc.acc_pumpkin_wise_lionfish
+        - /usr/bin/env sh .sqa/script.turquoise_confused_finch.sh
+        container: qc.acc_teal_audacious_vulture
   QC.Doc:
     repos:
       github.com/OphidiaBigData/ophidia-workflow-catalogue find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.orchid_lively_orangutan.sh
-        container: qc.doc_currant_affectionate_octopus
+        - /usr/bin/env sh .sqa/script.incarnadine_philosophical_mink.sh
+        container: qc.doc_teal_apprehensive_tarantula
       github.com/OphidiaBigData/ophidia-workflow-catalogue git:
         commands:
-        - /usr/bin/env sh .sqa/script.scarlet_reckless_elk.sh
-        container: qc.doc_echelon_radiant_clownfish
+        - /usr/bin/env sh .sqa/script.nutmeg_brilliant_lobster.sh
+        container: qc.doc_mint_feisty_hummingbird
       github.com/OphidiaBigData/ophidia-workflow-catalogue markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.dahlia_melancholy_swan.sh
-        container: qc.doc_glacier_optimistic_catfish
+        - /usr/bin/env sh .sqa/script.hunter_lively_echidna.sh
+        container: qc.doc_dusk_witty_cormorant
   QC.Lic:
     repos:
       github.com/OphidiaBigData/ophidia-workflow-catalogue licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.salmon_generous_pelican.sh
-        container: qc.lic_hunter_fearless_clownfish
+        - /usr/bin/env sh .sqa/script.gamboge_proud_kiwi.sh
+        container: qc.lic_mint_enthusiastic_swan
   QC.Sec:
     repos:
       github.com/OphidiaBigData/ophidia-workflow-catalogue bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.gold_resilient_boa.sh
-        container: qc.sec_lagoon_dedicated_marmoset
+        - /usr/bin/env sh .sqa/script.walnut_skeptical_caiman.sh
+        container: qc.sec_claret_perceptive_kirin
   QC.Sty:
     repos:
       github.com/OphidiaBigData/ophidia-workflow-catalogue flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.cerulean_romantic_gorilla.sh
-        container: qc.sty_prussian_brilliant_whale
+        - /usr/bin/env sh .sqa/script.mauve_helpful_tapir.sh
+        container: qc.sty_chestnut_witty_ibex
       github.com/OphidiaBigData/ophidia-workflow-catalogue jsonlint:
         commands:
-        - /usr/bin/env sh .sqa/script.green_scrappy_sphinx.sh
-        container: qc.sty_yellow_supportive_ferret
+        - /usr/bin/env sh .sqa/script.olive_outgoing_capybara.sh
+        container: qc.sty_ecru_artistic_chimpanzee
       github.com/OphidiaBigData/ophidia-workflow-catalogue pynblint.py:
         commands:
-        - /usr/bin/env sh .sqa/script.iris_nurturing_kirin.sh
-        container: qc.sty_orchid_vibrant_spren
+        - /usr/bin/env sh .sqa/script.malachite_artistic_marmoset.sh
+        container: qc.sty_bone_amused_ocelot
   QC.Uni:
     repos:
       github.com/OphidiaBigData/ophidia-workflow-catalogue pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.incarnadine_courageous_boa.sh
-        container: qc.uni_chartreuse_imaginative_orca
+        - /usr/bin/env sh .sqa/script.fuchsia_inspired_alpaca.sh
+        container: qc.uni_boysenberry_dramatic_boar
   QC.Ver:
     repos:
       github.com/OphidiaBigData/ophidia-workflow-catalogue get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.espresso_driven_tortoise.sh
-        container: qc.ver_teal_sympathetic_kangaroo
+        - /usr/bin/env sh .sqa/script.tan_decisive_jackal.sh
+        container: qc.ver_ash_quirky_dormouse
 timeout: 5400
