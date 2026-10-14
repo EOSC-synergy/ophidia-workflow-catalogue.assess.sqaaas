@@ -1,5 +1,5 @@
 services:
-  qc.sty_nippy-burgundy-mouse:
+  qc.sty_ash_understanding_pegasus:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pyophidia
       dockerfile: Dockerfile
